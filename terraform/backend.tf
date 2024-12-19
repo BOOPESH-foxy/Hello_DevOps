@@ -1,6 +1,3 @@
-provider "aws" {
-  region = "ap-south-1"
-}
 
 resource "aws_cloudwatch_log_group" "backend_log_group" {
   name = "/aws/ec2/backend"
